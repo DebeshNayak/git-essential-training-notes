@@ -1,0 +1,35 @@
+* Source Code Control System (SCCS)
+  - 1972, closed source, free with Unix (AT&T)
+* Revision Control system (RCS)
+  - 1982, open source
+  - Smarter storage format
+* Concurrent Versions System (CVS)
+  - 1986-1990, open source
+* Apache Subversion (SVN)
+  - 2000, open source
+  - Watching what happening in a directory
+  - Taking snapshot of a directory
+* BitKeeper SCM
+  - 2000, closed source, proprietary version control system
+  - distributed version control
+  - "community version" was free
+  - used for source code of the Linux kernel from 2002-2005
+  - controversial to use proprietary SCM for an open source project
+  - April 2005: the "community version" not free anymore
+
+Git is born
+* April 2005
+* created by Linus Torvalds
+* replacement for BitKeeper to manage Linux kernel source code
+* distributed version control
+* open source and free software
+* compatible with Unix-like systems (Linux, Mac OS X, and Solaris) and Windows
+* faster then other SCMs (100x in some cases)
+* better safeguards against data corruption
+
+Git is a hit
+  * explosion in popularity
+  * no official statistics
+  * GitHub launched in 2008 to host Git repositories
+    - 2009: over 50,000 repositories, over 100,000 users
+    - 2011: over 2 million repositories, over 1 million users
