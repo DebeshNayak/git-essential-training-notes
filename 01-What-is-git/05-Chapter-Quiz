@@ -1,0 +1,12 @@
+1. What is Git and what is it used for?
+- to keep track of changes
+- as a version control system
+- for source control management
+
+2. Which of the following is true about distributed version control system?
+- user don't have to work from a central repository
+- user maintain their own repositories
+- changes are stored as change sets
+
+3. Git is NOT optimized for this type of action.
+- sharing image, movie, and music files

@@ -1,0 +1,25 @@
+About distributed version control
+------------------------------
+Distributed version control
+* different users (or teams of users) maintain their own repositories, instead of working from a central repository
+* changes are stored as "change sets" or "patches"
+  - tracks changes, not versions
+  - different from CVS and SVN, which track version
+  - change set can be exchanged between repositories
+    - "merge in change sets" or "apply  patches"
+-----
+* No single master repository; just many working copies
+  - Each with their own combination of change sets
+* Imagine changes to a document as sets A, B, C, D, E, F
+  - Repo 1: A, B, C, D, E, F
+  - Repo 2: A, B, C, D
+  - Repo 3: A, B, C, E
+  - Repo 4: A, B, E, F
+----
+* no need to communicate with a central server
+  - faster
+  - no network access required
+  - no single failure point
+* encourages participation and "forking" of projects
+  - developers can work independently
+  - submit change sets for inclusion or rejection
