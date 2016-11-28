@@ -1,0 +1,40 @@
+Git configuration Location:
+* System level
+    /etc/gitconfig
+    Program Files\Git\etc\gitconfig
+
+* User
+    ~/.gitconfig
+    <user>\.gitconfig
+
+* Project
+    my_project/.git/config
+
+--
+Command to configure Git:
+* System:
+  git config --system
+
+* User:
+  git config --global
+
+* Project:
+  git config
+
+--Example--
+git config --global user.name "Debesh Nayak"
+git config --global user.email "dnayak382@gmail.com"
+
+config --list
+config user.name
+config user.email
+
+1. What text editor what we will be using:
+git config --global core.editor "atom --wait"
+
+git config --global core.editor "subl -n -w"
+
+git config --global core.editor "nano"
+
+2. Set the color for git
+git config --global color.ui true
