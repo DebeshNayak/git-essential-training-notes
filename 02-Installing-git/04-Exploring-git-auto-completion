@@ -1,0 +1,14 @@
+Git auto-completion:
+* These instructions are for Mac and Unix only
+* Windows should have auto-completion included already
+* Download from GitHub
+cd ~
+curl -OL https://github.com/git/git/raw/master/contrib/completion/git-completion.bash
+
+* Rename file
+mv ~/git-completion.bash ~/.git-completion.bash
+
+* Edit ~/.bash_profile or ~/.bashrc
+if [ -f ~/.git-completion.bash ]; then
+  source ~/.git-completion.bash
+fi
