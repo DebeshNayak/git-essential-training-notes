@@ -1,0 +1,12 @@
+Using Git help:
+
+git help
+
+git help log
+-- return git manual
+f - forward
+b - backward
+q - quit
+
+Same as
+man git-log
