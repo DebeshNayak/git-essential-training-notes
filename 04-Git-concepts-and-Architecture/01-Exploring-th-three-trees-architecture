@@ -1,0 +1,24 @@
+Git concepts and architecture:
+------------------------------
+* the three tree:
+
+* two-tree architecture:
+
+        repository
+
+commit              checkout
+    \               /
+          working
+
+
+* three-tree architecture
+
+                  repository---->-----
+                     ^               |
+                     |               |
+ git commit file.txt |               |
+                staging index        |
+                     ^               |
+                     |               |
+  git add file.txt   |               |
+                  working <-----------

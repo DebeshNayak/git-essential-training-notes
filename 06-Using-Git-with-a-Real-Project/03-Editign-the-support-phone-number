@@ -1,0 +1,7 @@
+git diff contact.html
+
+git diff --color-words contact.html
+
+git commit -am "Changed 24 hour support number to 4314"
+  - files that are modified an not included into the staging area are going to be added
+  - files that are not tracked(new files) and deleted files are not included into the repository

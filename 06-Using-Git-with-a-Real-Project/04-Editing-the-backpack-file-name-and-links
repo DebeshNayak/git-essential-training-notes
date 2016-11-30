@@ -1,0 +1,11 @@
+git mv tours/tour_detail_backpack.html tours/tour_detail_backpack_cal.html
+
+git status
+
+renamed the files
+
+git add .
+
+git commit -m "commit message"
+
+git commit -am "another commit message"

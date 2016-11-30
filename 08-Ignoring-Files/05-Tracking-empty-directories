@@ -1,0 +1,8 @@
+Ignoring tracked files:
+ * Git is designed to be a file-tracking system
+    - tracks files
+    - tracks the directories it takes to get to files
+    - ignores directories with no files
+
+Solution:
+* Create a file called ".gitkeep" inside the empty directory

@@ -1,0 +1,28 @@
+Viewing the commit log:
+
+git log
+
+Output:
+commit b6ae487920b4da88d976ac21d00c8ef8bfb92fe6
+Author: Debesh Nayak <dnayak382@gmail.com>
+Date:   Tue Nov 29 10:20:37 2016 +0530
+
+    Initial commit
+-------------
+git help log
+---------
+git log -n 1
+---------
+git log -n 2
+---------
+git log -n 0
+----------
+git log --since=2012-06-15
+----------
+git log --until=2016-12-15
+----------
+git log --author="Debesh"
+---------
+grep: global regular expression search
+git log --grep="Init"
+---------

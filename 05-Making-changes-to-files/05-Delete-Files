@@ -1,0 +1,9 @@
+Deleteing fiels:
+
+git add .
+
+git commit -m "commit message"
+
+1. delete a file from windows explorer named "file_to_delete1.txt"
+2. git rm file_to_delete1.txt
+3. git commit -m "file has been deleted"

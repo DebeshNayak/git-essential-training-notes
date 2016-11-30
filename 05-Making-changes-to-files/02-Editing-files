@@ -1,0 +1,7 @@
+1. Mofify a file
+
+git add fist_file.txt
+
+git commit -m "commit message"
+
+git status

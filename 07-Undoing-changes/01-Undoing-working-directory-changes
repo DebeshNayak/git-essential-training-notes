@@ -1,0 +1,8 @@
+1. Undoing changes made to the working directory
+git diff
+
+git checkout -- index.html
+
+2. Undoing changes made to the staging index
+
+3. Undoing changes made to repository

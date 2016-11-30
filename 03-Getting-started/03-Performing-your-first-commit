@@ -1,0 +1,7 @@
+Performing your first commit:
+git add .
+git commit -m "Initial commit"
+
+* Make changes
+* add the changes
+* commit changes to the repository with a message

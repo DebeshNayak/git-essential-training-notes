@@ -1,0 +1,16 @@
+1. Which of the following command prompts would you use to see if Git is installed on your Mac?
+Ans: which git
+
+2. Which of the following operating systems would you use to install Git?
+Ans:
+Windows
+Mac
+Linux
+
+3. Which command should you use to edit user level configurations?
+Ans:
+git config --global
+
+4. You can use the commands "git help log" or "man git-log" to get Git Manual page, because these two commands accomplish the same thing.
+Ans:
+True

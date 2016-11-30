@@ -1,0 +1,8 @@
+Adding fiels:
+
+git status
+
+git add second_file.txt
+git add third_file.txt
+
+git status

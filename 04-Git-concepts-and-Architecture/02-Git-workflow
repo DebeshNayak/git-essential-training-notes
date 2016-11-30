@@ -1,0 +1,30 @@
+Git Workflow:
+-------------
+
+* new file:
+
+git add file.txt
+
+[git add . (add all changed files)]
+
+git commit
+--------------
+repository [file.txt (v1)]
+
+staging index [file.txt (v1)]
+
+working   [file.txt (v1)]
+--------------
+
+* edited file:
+
+git add file.txt
+
+git commit
+--------------
+repository [file.txt (v2)]
+
+staging index [file.txt (v2)]
+
+working   [file.txt (v2)]
+--------------

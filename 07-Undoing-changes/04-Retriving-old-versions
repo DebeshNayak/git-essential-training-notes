@@ -1,0 +1,11 @@
+git checkout 944e10bb6370a5 -- resources.html
+
+And it will put the changed file into the staging area.
+
+git diff --staged
+
+git reset HEAD resources.html
+// it will unstage the file
+
+git checkout -- resources.html
+// it will remove from working directory

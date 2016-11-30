@@ -1,0 +1,16 @@
+Using .gitignore files:
+----------------------
+Put the .gitignore file in the git root directory
+Ignoring files:
+  - using .gitignore file:
+
+In the root of the working directory:
+* project/.gitignore
+* very basic regular expressions
+  * ? [aeiou] [0-9]
+* negate expressions with !
+  *.php
+  !index.php
+* ignore all files in a directory with trailing slash
+  assets/videos/
+* comment lines begin with #, blank lines are skipped

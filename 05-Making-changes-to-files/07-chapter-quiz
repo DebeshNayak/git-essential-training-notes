@@ -1,0 +1,14 @@
+1. Q: Which command reports the difference between the working directory, the staging index, and the repository?
+A: git status
+
+2. Q: Which command allows you to discard file changes in the working directory?
+A: git checkout <file name>
+
+3. Q: Which command should you use to find the differences between an old and new version of a file?
+A: git diff
+
+4. Q: Which command do you use to delete a file from our repository?
+A: git rm
+
+5. Which command do you use to move a file from one directory to another?
+A: git mv

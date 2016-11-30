@@ -1,0 +1,7 @@
+1. The three-tree architecture used by Git incorporates a "repository tree", "working tree", and "staging index tree".
+
+2. Q - How does Git link together multiple commits to a specific file?
+Ans: The parent for each commit refers to the SHA-1 value of the other one before it.
+
+3. Git maintains a reference variable called HEAD, which is a
+pointer. Head always points to the tip of the current branch in our repository.

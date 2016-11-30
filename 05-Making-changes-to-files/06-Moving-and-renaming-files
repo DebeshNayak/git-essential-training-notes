@@ -1,0 +1,10 @@
+Moving and renaming files:
+1. using file explorer
+  1. Renaming file using file explorer
+  2. git rm
+
+2. using command window
+  1. git rm file1.txt secondary.txt
+
+Moving file:
+git mv third_file.txt first_directory/thrid_file.txt

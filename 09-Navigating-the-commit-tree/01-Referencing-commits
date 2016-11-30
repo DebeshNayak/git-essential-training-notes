@@ -1,0 +1,8 @@
+Navigating the commit tree:
+--------------------------
+* referencing commits
+
+tree: structure of file in git repository
+
+tree-ish
+* full SHA-1 hash

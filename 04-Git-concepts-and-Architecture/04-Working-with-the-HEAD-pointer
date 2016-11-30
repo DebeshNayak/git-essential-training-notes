@@ -1,0 +1,9 @@
+The HEAD pointer:
+----------------
+  * pointer to "tip" of current branch in repository
+  * last state of repository, what was last checked out
+  * points to parent of next commit
+    - where writing commits takes place
+
+cd .git
+cat HEAD

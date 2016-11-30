@@ -1,0 +1,8 @@
+1. Q&A: When you're not trying to checkout a branch, it's standard practice to put -- before the filename. This tells Git to stay on the current branch.
+
+2. Q&A: When you check out a file from a particular revision, it puts that file into your working directory. (false)
+
+3. When you want to completely undo the changes for a commit, you can use the "git revert" command.
+
+4. Q: Suppose you've added a lot of files to your working directory that are not tracked, and you want to get rid of them. Which command would accomplish this the most efficiently?
+A: git clean -f

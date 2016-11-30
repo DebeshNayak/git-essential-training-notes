@@ -1,0 +1,11 @@
+1. Q: Git tracks empty directories.
+A: false
+
+2. Q: Suppose that you create a .gitignore file in the root of your working
+directory containing the line "*.php". Which files will be
+ignored by Git?
+A: All .php files
+
+3. Q: The following will ignore all files listed in ".gitignore_global" file globally:
+"git config --global core.excludesfile ~/.gitignore_global"
+A: True

@@ -1,0 +1,13 @@
+Using reset to undo many commits:
+
+git reset
+
+* --soft
+    - does not change staging index or working directory
+
+* --mixed (default)
+    - changes staging index to match repository
+    - does not change working directory
+
+* --hard
+    - changes staging index and working directory to match repository

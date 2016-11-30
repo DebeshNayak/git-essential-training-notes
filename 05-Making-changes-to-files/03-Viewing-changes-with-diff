@@ -1,0 +1,5 @@
+Viewing changes with diff:
+
+git diff
+
+(it show the difference between repository and working tree file)

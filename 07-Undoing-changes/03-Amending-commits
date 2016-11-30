@@ -1,0 +1,3 @@
+Amending commits:
+
+git commit --amend -m "Rearrange the items to bring on a trip"

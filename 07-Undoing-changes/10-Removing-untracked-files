@@ -1,0 +1,5 @@
+git clean -n
+// test run
+
+git clean -f
+// force remove all untrack files

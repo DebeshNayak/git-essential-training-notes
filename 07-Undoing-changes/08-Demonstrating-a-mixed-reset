@@ -1,0 +1,6 @@
+git reset --mixed f1742245969d29c8
+
+git log
+
+git add .
+git reset head resource.html
