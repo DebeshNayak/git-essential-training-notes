@@ -4,5 +4,22 @@ Navigating the commit tree:
 
 tree: structure of file in git repository
 
-tree-ish
-* full SHA-1 hash
+tree-ish (something that referring to the part of the tree)
+  * full SHA-1 hash
+  * short SHA-1 hash
+    - at least 4 characters
+    - unambiguous (8-10 characters)
+  * HEAD pointer
+  * branch reference, tag reference
+  * ancestry
+  * parent commit
+    - HEAD^, acf87504^, master^
+    - HEAD~1, HEAD~
+  * GRANDPARENT COMMIT
+    - head^^, acf87504^^, master^^
+    - HEAD~2
+  * great-grandparent commit
+    - HEAD^^^, acf87504^^^, master^^
+    - HEAD~3
+
+* tree-ish example: HEAD, master, acf87504

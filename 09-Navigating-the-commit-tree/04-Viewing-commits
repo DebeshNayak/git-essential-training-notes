@@ -1,0 +1,14 @@
+Viewing commits:
+
+git log --oneline
+
+git show 0022407
+
+git show --format=oneline HEAD
+
+git show --format=oneline HEAD^
+
+git show --format=oneline HEAD^^
+
+git ls-tree master
+git show 769731de51

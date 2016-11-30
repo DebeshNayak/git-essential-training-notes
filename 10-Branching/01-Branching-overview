@@ -1,0 +1,6 @@
+Branching overview:
+* branches are cheap
+  - try new ideas
+  - isolate features or sections of work
+* one working directory
+* fast context switching

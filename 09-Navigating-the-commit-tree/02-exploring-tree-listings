@@ -1,0 +1,12 @@
+Exploring tree listings:
+
+git ls-tree HEAD
+git ls-tree master
+git ls-tree master assets/
+
+git ls-tree master^ assets/
+-------------
+tree - directory
+blog - file
+-------------
+git ls-tree 7b2923f4a55

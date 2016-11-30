@@ -1,0 +1,25 @@
+Comparing commits:
+
+Comparing two directory:
+
+git diff
+(comparing between working directory and staging index)
+
+git diff --staged
+git diff --cached
+
+git log --oneline
+git diff f5ae041
+git diff f5ae041 tour.html
+git diff f940fde..6571842
+git diff f940fde..6571842 tours.html
+git diff f5ae041..HEAD
+git diff f5ae041..HEAD^^
+
+git diff --stat --summary f5ae041..HEAD
+
+git diff -b f5ae041..HEAD
+git diff --ignore-space-change f5ae041..HEAD
+
+git diff -w f5ae041..HEAD
+git diff --ignore-all-space f5ae041..HEAD

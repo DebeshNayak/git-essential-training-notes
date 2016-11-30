@@ -1,0 +1,8 @@
+1. Q: Which of the following is a way of referencing a commit?
+A: i. using full SHA-1 hash
+ii. using HEAD pointer
+iii. using short SHA-1 hash
+
+2. To explore a tree listing that will return the list of files at a specific point, you would use "git ls-tree HEAD".
+
+3. If you want to look at a specific commit to see what changed and what the commit was all about, you would use "git show".
