@@ -1,0 +1,6 @@
+Renaming branches:
+
+git diff master..new_featur
+
+git branch -m new_featur seo_title
+git branch --move

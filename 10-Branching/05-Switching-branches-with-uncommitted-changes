@@ -1,0 +1,8 @@
+Switching branches with uncommitted changes:
+
+Basically in this situation we have to do one of the 3 things:
+1. Checkout the file which remove the changes
+2. Commit the changes
+3. Stash the changes (put things in and save them for later)
+
+git commit -am "Swap out - for : in index.html title"

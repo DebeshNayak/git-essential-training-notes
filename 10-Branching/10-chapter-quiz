@@ -1,0 +1,14 @@
+1. Q: How do yo create a new branch in Git?
+A: git branch branchname
+
+2. How do yo switch to a newly created branch?
+A: git checkout branchname
+
+3. If your master branch has uncommitted changes to a file, Git will still allow you to switch between the master branch and another branch.
+(This is false)
+
+4. Q: How do you compare branches in Git?
+A: git diff branch1..branch2
+
+5. Describe what this Git command does: git branch -m branch1 branch2
+A: it renames branch1 into branch2

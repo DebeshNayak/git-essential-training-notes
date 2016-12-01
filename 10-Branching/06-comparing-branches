@@ -1,0 +1,14 @@
+Comparing Branches:
+
+git branch
+
+git diff master..new_featur
+
+git diff master..shorten_title
+
+git diff --color-words new_featur..shorten_title
+
+git diff --color-words new_featur..shorten_title^
+
+//whether one branch completely contains another branch or not
+git branch --merged

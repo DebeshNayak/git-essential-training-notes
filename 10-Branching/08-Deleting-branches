@@ -1,0 +1,12 @@
+
+git branch branch_to_delete
+
+git branch -d branch_to_delete
+
+git branch --delete branch_to_delete
+
+1. Make sure switch off from that branch
+
+2. If there is some changes in the new branch then git would not let you delete the branch, in that case use the following:
+
+git branch -D branch_to_delete

@@ -1,0 +1,15 @@
+Switch Branches:
+
+git checkout new_featur
+
+change something
+
+git commit -am "Modified title fo index.html"
+
+git checkout master
+
+git branch
+
+git log --oneline
+
+git checkout new_feature

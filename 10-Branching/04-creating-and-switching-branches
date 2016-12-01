@@ -1,0 +1,24 @@
+Creating and switching branches:
+
+git branch
+git log --online
+git show HEAD
+
+git checkout -b shorten_title
+// create and switching branches
+
+git branch
+
+git log --oneline
+
+git commit -am "Shorten the title of the index.html"
+
+git log --online
+
+git checkout new_feature
+
+git checkout master
+
+git checkout shorten_title
+
+git log --graph --oneline --decorate --all
