@@ -4,4 +4,4 @@ git branch
 cat .git/HEAD
 ls -la .git/refs/heads
 
-git branch new_featur
+git branch new_feature

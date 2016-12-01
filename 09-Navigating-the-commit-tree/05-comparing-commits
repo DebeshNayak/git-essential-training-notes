@@ -7,6 +7,7 @@ git diff
 
 git diff --staged
 git diff --cached
+(same as above)
 
 git log --oneline
 git diff f5ae041

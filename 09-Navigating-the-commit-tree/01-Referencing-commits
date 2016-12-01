@@ -22,4 +22,4 @@ tree-ish (something that referring to the part of the tree)
     - HEAD^^^, acf87504^^^, master^^
     - HEAD~3
 
-* tree-ish example: HEAD, master, acf87504
+* tree-ish example: HEAD, master, acf87504, branches
