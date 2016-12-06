@@ -6,7 +6,7 @@ referring to commits:
   - checksum algorithms convert data into a simple number
   - same data always equals same checksum
 * data integrity is fundamental
-  - chaning data would change checksum
+  - changing data would change checksum
 * Git uses SHA-1 hash algorithm to create checksums
   - 40-character hexadecimal string (0-9, a-f)
   - Example, 5c15e8bd540c113cd2d9eac6f64cacbc5ff6fe9c

@@ -1,0 +1,25 @@
+Resolving merge conflicts:
+
+1. abort merge
+
+git merge --abort
+
+2. resolve the conflicts manually
+
+1. Open the file with the conflicts:
+2. Find the spot with the merge. (<<<<<<< HEAD , ======= , >>>>>>> text_edits )
+3. Fix the text inside the (========) and (>>>>>>>>> text_edits) section.
+4. Then remove the text between (<<<<<<<< HEAD) and (===========) and remove the symbols also
+5. Do "git status"
+6. Then add the file to the staging index by "git add <file name>"
+7. Then "git commit"
+6. Then it will automatically open the text editor, here write the commit message
+7. Then "save" and "exit" the browser.
+
+git log --graph --oneline --all --decorate
+
+3. Use a merge tool
+
+git mergetool --tool=<name of the tool that you want>
+
+git help mergetools

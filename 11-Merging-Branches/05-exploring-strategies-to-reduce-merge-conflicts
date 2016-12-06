@@ -1,0 +1,12 @@
+Strategies to reduce conflicts:
+
+* keep lines short
+
+* keep commit small and focused
+
+* beware stray edits to whitespace
+  - spaces, tabs, line returns
+
+* merge often
+
+* track changes to master

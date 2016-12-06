@@ -1,0 +1,7 @@
+Merging code:
+
+git merge seo_title
+
+git diff master..seo_title
+
+git branch --merged

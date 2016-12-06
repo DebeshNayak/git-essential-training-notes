@@ -1,0 +1,12 @@
+Saving changes in the stash:
+
+What is a Stash?
+Ans: The stash is a place where we can store changes temporarily without having to commit them to the repository. It's a lot like putting something into a drawer to save it for later. The stash is not part of the repository, the staging index or the working directory, it's a special fourth area in Git, separate from the others. And the things that we put into it aren't commits, but they're a lot like commits, they work in a very similar way. They're still a snapshot of the changes that we were in the process of making, just like a commit is. But they don't have a SHA associated with them.
+
+git checkout shorten_title
+
+* then
+
+git stash save "changed mission page title"
+
+(after stashing the changes git ran "git reset --hard", so it replaced whatever are there in the repository with working directory, and staging index area)

@@ -4,7 +4,7 @@ git checkout new_featur
 
 change something
 
-git commit -am "Modified title fo index.html"
+git commit -am "Modified title of index.html"
 
 git checkout master
 

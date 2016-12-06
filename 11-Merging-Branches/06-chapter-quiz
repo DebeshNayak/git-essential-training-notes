@@ -1,0 +1,7 @@
+1. A conflict occurs when there are two changes to the same line or set of lines in two different commits. Git can't decide which one to use or how to merge them together, which results in a merge conflict.
+
+2. Q: Which of the following is a strategy to reduce merge conflict in your code?
+Ans:
+- Keep commits small and focused
+- track changes to master
+- keep lines short so you can spot your changes

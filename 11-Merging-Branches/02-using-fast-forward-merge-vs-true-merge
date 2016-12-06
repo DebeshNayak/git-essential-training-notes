@@ -1,0 +1,13 @@
+Using fast-forward merge vs. true merge:
+
+git log seo_title --oneline -3
+
+git log master --oneline -3
+
+git merge --no-ff branch
+// no fast-forward merge
+
+git merge --ff-only branch
+// only do fast forward
+
+git merge seo_title

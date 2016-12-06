@@ -1,0 +1,9 @@
+Viewing stashed changes:
+
+git stash list
+
+git stash show stash@{0}
+
+* want to see more optoin use -p option
+
+git stash show -p stash@{0}

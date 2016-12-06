@@ -1,0 +1,4 @@
+1. When you need to switch branches and you have some changes that you're not ready to turn into a commit yet, you would use "git stash save" to stash them instead.
+
+2. Q: How do you view stashed changes?
+A: git stash list
