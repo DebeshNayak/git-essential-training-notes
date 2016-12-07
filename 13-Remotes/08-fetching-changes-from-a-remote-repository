@@ -1,0 +1,18 @@
+Fetching changes from a remote repository:
+
+git log --oneline -5
+
+git log --oneline -5 origin/master
+
+git branch -r
+
+// fetch synch the origin/master repository with remote repository
+(need internet connection)
+git fetch origin
+(or)
+git fetch
+
+Guideline to work with Git:
+1. fetch before you work
+2. fetch before you push
+3. fetch often

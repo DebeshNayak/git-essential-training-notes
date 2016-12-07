@@ -1,0 +1,17 @@
+Pushing changes to a remote repository:
+
+git commit -am "change file/link format on tours.html"
+
+git log --oneline
+
+git log --oneline origin/master
+
+git diff origin/master..master
+
+// push the changes
+git push origin master
+(or)
+git push
+// because it is a tracking branch that is why the "git push" works here.
+
+git log --oneline origin/master

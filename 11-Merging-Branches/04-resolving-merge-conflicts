@@ -1,5 +1,7 @@
 Resolving merge conflicts:
 
+Merge conflict could be resolved in either of the following 3 ways:
+
 1. abort merge
 
 git merge --abort

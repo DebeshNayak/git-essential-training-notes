@@ -1,0 +1,10 @@
+Adding a remote repository:
+
+git remote
+git remote add <alias> <url>
+git remote add origin https://github.com/DebeshNayak/explore_california.git
+git remote
+git remote -v
+cat .git/config
+
+git remote rm origin

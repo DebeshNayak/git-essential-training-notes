@@ -1,0 +1,13 @@
+Tracking remote branches:
+
+* While pushing the the local repository to remote, if we don't specify "-u" option then Git doesn't track any remote branch.
+
+git branch non_tracking
+git push origin non_tracking
+// experiment: pushing by not tracking the remote repository
+
+// to make a non tracking branch to tracking
+git config branch.non_tracking.remote origin
+git config branch.non_tracking.merge refs/heads/master
+--------or---------work on git 1.7 version---
+git branch --set-upstream non_tracking origin/non_tracking

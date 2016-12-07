@@ -1,0 +1,16 @@
+Creating a remote branch:
+
+git push -u <alias> <branch>
+
+git push -u origin master
+-------------
+cat .git/config
+
+ls -la .git/refs/remotes/origin/
+cat .git/refs/remotes/origin/master
+------------
+git branch -r
+// gives the remote branches
+
+git branch -a
+// gives the remote and local branches info

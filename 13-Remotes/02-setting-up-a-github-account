@@ -1,0 +1,21 @@
+Setting up a GitHub account:
+* GitHub
+  - http://github.com
+  - most popular Git Host
+  - free and inexpensive hosting plans
+  - many great features
+
+git remote
+
+-----------------create a new repository on the command line
+After creating new repository on GitHub do the following:
+
+echo "# explore_california" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/DebeshNayak/explore_california.git
+git push -u origin master
+------------------or push an existing repository from the command line
+git remote add origin https://github.com/DebeshNayak/explore_california.git
+git push -u origin master

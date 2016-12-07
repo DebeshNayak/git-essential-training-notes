@@ -4,8 +4,9 @@ __git_ps1
 
 How to configure prompt in Unix:
 echo $PS1
+Example:
 export PS1='----->'
-
+----------------
 export PS1='\W$(__git_ps1 "(%s)") > '
 
 cd ~

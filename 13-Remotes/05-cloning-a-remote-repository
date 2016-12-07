@@ -1,0 +1,6 @@
+Cloning a remote repository:
+
+git clone https://github.com/DebeshNayak/explore_california.git
+// destination path already exist
+
+git clone https://github.com/DebeshNayak/explore_california.git lynda_version

@@ -4,4 +4,4 @@ git stash drop stash@{0}
 // delete on stash
 
 git stash clear
-//dele all items in stash
+//delete all items in stash
