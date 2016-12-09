@@ -1,0 +1,17 @@
+Checking out remote branches:
+----------------------------
+git branch
+// show all the local branches and which branches we are currently using
+
+git branch -r
+// show all the remote branches
+
+git branch non_tracking origin/non_tracking
+
+git branch
+
+git branch -d non_tracking
+// delete branch non_tracking
+
+git checkout -b non_tracking origin/non_tracking
+// create and checkout non_tracking remote branch

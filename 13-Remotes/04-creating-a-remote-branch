@@ -3,6 +3,7 @@ Creating a remote branch:
 git push -u <alias> <branch>
 
 git push -u origin master
+
 -------------
 cat .git/config
 

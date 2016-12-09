@@ -1,0 +1,15 @@
+Merging in fetched changes:
+* While fetching from git using "git fetch", it gets all the new changes to "origin/master" branch not to the "master" local branch.
+  All it did was, origin/master in sync.
+
+* To get the new changes that we got from "git fetch" command we have to merge the updated "origin/master" branch with "master" branch.
+
+git branch -a
+
+git diff orgini/master..master
+
+git merge origin/master
+
+git log --oneline -3 master
+
+git pull = git fetch + git merge
