@@ -6,7 +6,7 @@ Merging in fetched changes:
 
 git branch -a
 
-git diff orgini/master..master
+git diff origin/master..master
 
 git merge origin/master
 

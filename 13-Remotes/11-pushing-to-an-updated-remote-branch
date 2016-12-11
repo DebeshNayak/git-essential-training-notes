@@ -1,0 +1,5 @@
+Pushing to an updated remote branch:
+
+* Fetch the new changes and merge the commit and push the new changes.
+
+Fetch -> Merge -> Push again

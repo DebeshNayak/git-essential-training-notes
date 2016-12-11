@@ -1,0 +1,18 @@
+Enables collaboration:
+
+To enable collaboration do the following steps:
+(Private Project)
+1. Go to the project home page, then click on "Setting"
+2. Then open the "Collaborators" tab. Then enter the GitHub Username of the user you want to collaborate with.
+3. After adding them to the project, GitHub will send the user an email and tell them that they have added into that repository.
+  and provide the GitHub URL and so that they can clone it and start working on it.
+
+(Public project)
+1. Fork the project, so that it will create a own version of the repository on your GitHub dashboard.
+2. Then make the changes
+3. Add your changes to the main repository, apply a "New pull request" (I have something that I wanted to show  you.)
+4. In the "Pull request" comment section,
+    0. What problem you saw?
+    1. What new changes/feature you wanted to make?
+    2. How you wanted to do it?
+    3. Why you think it's good for project?

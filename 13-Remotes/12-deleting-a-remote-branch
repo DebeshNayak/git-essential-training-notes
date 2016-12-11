@@ -1,0 +1,15 @@
+Deleting a remote branch:
+git branch -a
+// display local as well as remote branch
+
+git push origin :non_tracking
+// old way to removing remote branch
+
+// why this non-intutive way of removing remote branch
+// when we push the branch to remote repository we have done as follows:
+git push origin non_tracking
+// but in the background it done like the following
+git push origin non_tracking:non_tracking
+
+git push origin --delete non_tracking
+// new way to delete git remote branch

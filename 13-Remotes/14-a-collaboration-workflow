@@ -1,0 +1,36 @@
+A collaboration workflow:
+
+How to collaborate with another user:
+
+My work:
+> git checkout master
+> git fetch (every time)
+> git merge origin/master
+> git checkout -b feedback_form
+> git add feedback.html
+> git commit -m "Add customer feedback from"
+> get fetch
+> git push -u origin feedback_form
+
+Lynda's work:
+> git checkout master
+> git fetch
+> git branch -r
+> git merge origin/master
+> git checkout -b feedback_form origin/feedback_form
+> git log --oneline
+> git show 84b6afed0 / git show feedback_form
+> git commit -am "Add tour selector to feedback form"
+> git fetch
+> git push
+
+My work:
+> git fetch
+> git log -p feedback_form..origin/feedback_form
+(patch which show what changes have been made in each of the log entry.)
+> git merge origin/feedback_form
+> git checkout master
+> git fetch
+> git merge origin/master
+> git merge feedback_form
+> git push

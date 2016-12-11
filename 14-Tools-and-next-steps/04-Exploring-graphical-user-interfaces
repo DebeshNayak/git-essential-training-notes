@@ -1,0 +1,19 @@
+Exploring graphical user interfaces:
+1. GitWeb
+https://git.wiki.kernel.org/index.php/gitweb
+
+Graphical User Interfaces for Mac:
+1.  GitX
+2. GitHub
+3. SourceTree
+4. Tower
+5. SmartGit
+6. Gitbox
+
+Graphical User Interfaces for Windows:
+1. TortoiseGit  : http://code.google.com/p/tortoisegit
+2. GitHub
+3. Git Extensions: http://code.google.com/p/gitextensions
+4. SmartGit: https://syntevo.com/smartgit
+
+Reference: https://git.wiki.kernetl.org/index.php/InterfacesFrontendsAndTools

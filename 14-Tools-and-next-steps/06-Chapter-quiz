@@ -1,0 +1,7 @@
+1. An alias "st" for the "status" git command will be created by the following code: git config --global alias.st "status"
+
+2. Q: What is the idea behind SSH keys?
+A: Git automatically sends a bit of code along with the request to authenticate the user.
+
+3. If you work at a corporation or governmental agency, you should have a hosting company host your Git repository for you.
+A: This is false.

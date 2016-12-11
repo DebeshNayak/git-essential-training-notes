@@ -8,10 +8,10 @@ git remote add origin https://github.com/DebeshNayak/explore_california.git
 git remote
 
 git remote -v
-// display the fetch and push url
+// display the "fetch" and "push" url
 
 cat .git/config
-// it store this in this file
+// the configuration setting are stored in this file
 
 git remote rm origin
-// remote the remote repository and we can add it
+// remote the remote branch

@@ -1,6 +1,6 @@
 Tracking remote branches:
 
-* While pushing the the local repository to remote, if we don't specify "-u" option then Git doesn't track any remote branch.
+* While pushing the local repository to remote, if we don't specify "-u" option then Git doesn't track any remote branch.
 
 git branch non_tracking
 git push origin non_tracking

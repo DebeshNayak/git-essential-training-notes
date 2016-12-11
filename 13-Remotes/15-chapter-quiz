@@ -1,0 +1,13 @@
+1. Q: Use this command to tell your local repository where ti can find the remote repository.
+A: git remote add <nameOfRepo> <URL>
+
+2. What is the result of "git push -u origin master"?
+A: It will push the master branch into the origin repository.
+
+3. "git clone URL" will make a copy fo the repository specified in the URL over to your local machine.
+A: Yes, this is true.
+
+4. "git push origin master" will push any changes in the origin/master branch to the origin repository.
+
+5. "git pull" produces a different result than "git fetch plus git merge"
+A: This is false.
