@@ -1,3 +1,6 @@
 Amending commits:
 
 git commit --amend -m "Rearrange the items to bring on a trip"
+
+* This will make changes to the commit message of the last commit only (to which the head pointed to)
+* But it violate the data integrity, which is the principle of Git

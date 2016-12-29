@@ -1,3 +1,5 @@
+Following are the 3 types of undoing using Git:
+
 1. Undoing changes made to the working directory
 git diff
 

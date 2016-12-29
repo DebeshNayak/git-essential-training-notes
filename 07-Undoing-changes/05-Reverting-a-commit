@@ -1,3 +1,6 @@
+To revert an old commit as new commit revert is used:
+// It will pick up that commit and do a mirror image and commit that set of changes.
+
 git log
 
 git revert f1742245969d29c

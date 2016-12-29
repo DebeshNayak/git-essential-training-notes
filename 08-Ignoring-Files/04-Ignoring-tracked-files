@@ -1,9 +1,9 @@
-Ignoring tracking future version of that file.
+*Ignoring tracking future version of a tracked file:
 
-Then add the file name "tempfile2.txt" to the ".gitignore" file.
+1. Add a tracked file "tempfile2.txt" to the ".gitignore" file.
 
-git rm --cached tempfile2.txt
+2. git rm --cached tempfile2.txt
 
-git add .
+3. git add .
 
-git commit -m "Not going to track tempfile2.txt anymore"
+4. git commit -m "Not going to track tempfile2.txt anymore"

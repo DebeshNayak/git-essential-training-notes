@@ -11,3 +11,5 @@ git reset
 
 * --hard
     - changes staging index and working directory to match repository
+    - it remove changes from staging index and repository after the specified commit
+    - so it is very dangerous.
