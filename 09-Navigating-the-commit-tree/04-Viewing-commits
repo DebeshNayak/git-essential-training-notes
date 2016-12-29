@@ -1,4 +1,4 @@
-Viewing commits:
+Viewing commits: What was the commit all about.
 
 git log --oneline
 

@@ -3,7 +3,8 @@ Remotes:
 * local and remote repositories
             /- master
 My computer
-      |     \- origin/master
+      ^
+  ^   |     \- origin/master
 fetch | Push
       |
 Remote server

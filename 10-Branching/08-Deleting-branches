@@ -1,10 +1,11 @@
+git checkout master
 
 git branch branch_to_delete
-
+// create a new branch to delete
 git branch -d branch_to_delete
-
+// we have not swiched to the new branch and going to delete it
 git branch --delete branch_to_delete
-
+// another way to delete a branch
 1. Make sure switch off from that branch
 
 2. If there is some changes in the new branch then git would not let you delete the branch, in that case use the following:

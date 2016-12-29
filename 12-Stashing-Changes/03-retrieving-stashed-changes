@@ -1,12 +1,11 @@
 Retrieving stashed changes:
-1.
-git stash pop
+There are two ways to retrieve the stash:
+1. git stash pop
 - after pop, it remove the copy from the stash
 
 Syntax:
 git stash pop stash@{2}
-- pop the 3 one of the stash
-
-2.
-git stash apply
+- pop the 3rd one from the stash
+-----------
+2. git stash apply
 - after pop, it put the copy in the stash

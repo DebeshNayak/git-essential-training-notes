@@ -9,5 +9,5 @@ git push origin non_tracking
 // to make a non tracking branch to tracking
 git config branch.non_tracking.remote origin
 git config branch.non_tracking.merge refs/heads/master
---------or---------work on git 1.7 version---
+--------or---------work on git 1.7 version or above---
 git branch --set-upstream non_tracking origin/non_tracking

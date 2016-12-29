@@ -11,7 +11,7 @@ ls -la .git/refs/remotes/origin/
 cat .git/refs/remotes/origin/master
 ------------
 git branch -r
-// gives the remote branches
+// shows the remote branches
 
 git branch -a
-// gives the remote and local branches info
+// shows the remote and local branches info

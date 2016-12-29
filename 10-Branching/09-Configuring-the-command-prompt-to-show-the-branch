@@ -1,9 +1,11 @@
-Configuring the command prompt to show the branch:
+Configuring the command prompt to show us the branch:
 
 __git_ps1
+// it will return the name of the current branch
 
 How to configure prompt in Unix:
 echo $PS1
+
 Example:
 export PS1='----->'
 ----------------

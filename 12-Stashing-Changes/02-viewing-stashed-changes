@@ -4,6 +4,8 @@ git stash list
 
 git stash show stash@{0}
 
-* want to see more optoin use -p option
+* want to see more option use -p option
 
 git stash show -p stash@{0}
+
+* stash store from 0th place
